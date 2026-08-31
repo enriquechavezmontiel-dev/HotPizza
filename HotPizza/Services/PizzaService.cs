@@ -54,4 +54,25 @@ public class PizzaService : IPizzaService
             };
         }
     }
+
+    public async Task<OperationResult<List<Pizza>>> GetAllPizzasAsync()
+    {
+        try
+        {
+            var pizzas = await _repository.GetAllAsync();
+            return new OperationResult<List<Pizza>>
+            {
+                IsSuccess = true,
+                Data = pizzas
+            };
+        }
+        catch (Exception ex)
+        {
+            return new OperationResult<List<Pizza>>
+            {
+                IsSuccess = false,
+                ErrorMessage = $"Error al consultar las pizzas: {ex.Message}"
+            };
+        }
+    }
 }

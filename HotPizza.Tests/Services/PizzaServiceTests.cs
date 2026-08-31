@@ -98,4 +98,70 @@ public class PizzaServiceTests
         Assert.Contains("nombre", result.ErrorMessage);
         Assert.Contains("precio", result.ErrorMessage);
     }
+
+    [Fact]
+    public async Task RegisterPizzaAsync_InvalidPizza_DoesNotPersistPizza()
+    {
+        var mockRepo = new Mock<IPizzaRepository>();
+        var validator = new PizzaValidator(
+            new NameFieldValidator(),
+            new DescriptionFieldValidator(),
+            new PriceFieldValidator(),
+            new SizeFieldValidator());
+        var service = new PizzaService(mockRepo.Object, validator);
+
+        var result = await service.RegisterPizzaAsync("Test", "Description", 10, 25);
+
+        Assert.False(result.IsSuccess);
+        Assert.Contains("tamaño", result.ErrorMessage);
+        mockRepo.Verify(r => r.AddAsync(It.IsAny<Pizza>()), Times.Never);
+    }
+
+    [Fact]
+    public async Task GetAllPizzasAsync_EmptyRepository_ReturnsEmptyList()
+    {
+        var mockRepo = new Mock<IPizzaRepository>();
+        var mockValidator = new Mock<IValidator<Pizza>>();
+
+        mockRepo.Setup(r => r.GetAllAsync())
+            .ReturnsAsync(new List<Pizza>());
+
+        var service = new PizzaService(mockRepo.Object, mockValidator.Object);
+
+        var result = await service.GetAllPizzasAsync();
+
+        Assert.True(result.IsSuccess);
+        Assert.NotNull(result.Data);
+        Assert.Empty(result.Data);
+        mockRepo.Verify(r => r.GetAllAsync(), Times.Once);
+    }
+
+    [Fact]
+    public async Task GetAllPizzasAsync_RepositoryHasPizzas_ReturnsPizzas()
+    {
+        var mockRepo = new Mock<IPizzaRepository>();
+        var mockValidator = new Mock<IValidator<Pizza>>();
+        var pizzas = new List<Pizza>
+        {
+            new()
+            {
+                Id = Guid.NewGuid(),
+                Name = "Margarita",
+                Description = "Tomate y mozzarella",
+                Price = 12.50m,
+                Size = 30
+            }
+        };
+
+        mockRepo.Setup(r => r.GetAllAsync())
+            .ReturnsAsync(pizzas);
+
+        var service = new PizzaService(mockRepo.Object, mockValidator.Object);
+
+        var result = await service.GetAllPizzasAsync();
+
+        Assert.True(result.IsSuccess);
+        Assert.Equal(pizzas, result.Data);
+        mockRepo.Verify(r => r.GetAllAsync(), Times.Once);
+    }
 }

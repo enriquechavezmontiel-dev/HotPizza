@@ -5,5 +5,54 @@
     "Description": "Tomate, mozzarella y albahaca",
     "Price": 12.50,
     "Size": 30
+  },
+  {
+    "Id": "e8e788ff-439d-4780-8647-e76b8e6fdb27",
+    "Name": "Pizza de prueba",
+    "Description": "Descripcion de prueba",
+    "Price": 14.50,
+    "Size": 32
+  },
+  {
+    "Id": "22c1877a-3626-445b-8069-ddc9c00463c5",
+    "Name": "Pizza de prueba",
+    "Description": "Descripcion de prueba",
+    "Price": 14.50,
+    "Size": 32
+  },
+  {
+    "Id": "7c43d0d6-4e46-43ef-9285-a2ae9288d7f6",
+    "Name": "Pizza valida validacion",
+    "Description": "Descripcion valida",
+    "Price": 15.50,
+    "Size": 40
+  },
+  {
+    "Id": "f7344743-3e04-4f37-bbea-50282b5a62c5",
+    "Name": "PIZZA_VALIDA_20260830",
+    "Description": "Descripcion valida",
+    "Price": 15.50,
+    "Size": 40
+  },
+  {
+    "Id": "0cd7da81-205a-4ac2-b6b9-cd8b5b20e89b",
+    "Name": "PIZZA_VALIDA_20260830",
+    "Description": "Descripcion valida",
+    "Price": 15.50,
+    "Size": 40
+  },
+  {
+    "Id": "244ab580-fd7c-446c-ad82-97ff547e47e6",
+    "Name": "PIZZA_INMEDIATA_VALIDA_20260830",
+    "Description": "Descripcion inmediata valida",
+    "Price": 16.75,
+    "Size": 40
+  },
+  {
+    "Id": "c605a369-0e0d-4d35-95c8-6f7ab5e707dc",
+    "Name": "chistorraitor",
+    "Description": "Pizza de deliciosa chistorra",
+    "Price": 55,
+    "Size": 30
   }
 ]

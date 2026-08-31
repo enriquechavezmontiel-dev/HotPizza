@@ -10,8 +10,13 @@ var builder = Host.CreateDefaultBuilder(args)
     .ConfigureServices((context, services) =>
     {
         services.AddSingleton<IPizzaRepository, JsonPizzaRepository>();
+        services.AddSingleton<NameFieldValidator>();
+        services.AddSingleton<DescriptionFieldValidator>();
+        services.AddSingleton<PriceFieldValidator>();
+        services.AddSingleton<SizeFieldValidator>();
         services.AddSingleton<IValidator<Pizza>, PizzaValidator>();
         services.AddSingleton<IPizzaService, PizzaService>();
+        services.AddSingleton<IConsoleAdapter, ConsoleAdapter>();
         services.AddSingleton<ConsoleUI>();
     });
 

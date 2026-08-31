@@ -4,32 +4,39 @@ namespace HotPizza.Validators;
 
 public class PizzaValidator : IValidator<Pizza>
 {
+    private readonly IFieldValidator<string> _nameValidator;
+    private readonly IFieldValidator<string> _descriptionValidator;
+    private readonly IFieldValidator<decimal> _priceValidator;
+    private readonly IFieldValidator<int> _sizeValidator;
+
+    public PizzaValidator(
+        NameFieldValidator nameValidator,
+        DescriptionFieldValidator descriptionValidator,
+        PriceFieldValidator priceValidator,
+        SizeFieldValidator sizeValidator)
+    {
+        _nameValidator = nameValidator;
+        _descriptionValidator = descriptionValidator;
+        _priceValidator = priceValidator;
+        _sizeValidator = sizeValidator;
+    }
+
     public ValidationResult Validate(Pizza pizza)
     {
         var result = new ValidationResult { IsValid = true };
 
-        if (string.IsNullOrWhiteSpace(pizza.Name))
+        var fieldResults = new[]
         {
-            result.IsValid = false;
-            result.Errors.Add("El nombre es obligatorio.");
-        }
+            _nameValidator.Validate(pizza.Name),
+            _descriptionValidator.Validate(pizza.Description),
+            _priceValidator.Validate(pizza.Price),
+            _sizeValidator.Validate(pizza.Size)
+        };
 
-        if (string.IsNullOrWhiteSpace(pizza.Description))
+        foreach (var fieldResult in fieldResults.Where(fieldResult => !fieldResult.IsValid))
         {
             result.IsValid = false;
-            result.Errors.Add("La descripción es obligatoria.");
-        }
-
-        if (pizza.Price <= 0)
-        {
-            result.IsValid = false;
-            result.Errors.Add("El precio debe ser mayor a 0.");
-        }
-
-        if (pizza.Size <= 0)
-        {
-            result.IsValid = false;
-            result.Errors.Add("El tamaño debe ser mayor a 0.");
+            result.Errors.AddRange(fieldResult.Errors);
         }
 
         return result;

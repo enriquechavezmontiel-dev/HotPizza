@@ -6,7 +6,11 @@ namespace HotPizza.Tests.Validators;
 
 public class PizzaValidatorTests
 {
-    private readonly PizzaValidator _validator = new();
+    private readonly PizzaValidator _validator = new(
+        new NameFieldValidator(),
+        new DescriptionFieldValidator(),
+        new PriceFieldValidator(),
+        new SizeFieldValidator());
 
     [Fact]
     public void Validate_ValidPizza_ReturnsSuccess()
@@ -31,6 +35,23 @@ public class PizzaValidatorTests
         var pizza = new Pizza
         {
             Name = "",
+            Description = "Test",
+            Price = 10,
+            Size = 30
+        };
+
+        var result = _validator.Validate(pizza);
+
+        Assert.False(result.IsValid);
+        Assert.Contains(result.Errors, e => e.Contains("nombre"));
+    }
+
+    [Fact]
+    public void Validate_WhitespaceName_ReturnsError()
+    {
+        var pizza = new Pizza
+        {
+            Name = "   ",
             Description = "Test",
             Price = 10,
             Size = 30
@@ -125,5 +146,44 @@ public class PizzaValidatorTests
 
         Assert.False(result.IsValid);
         Assert.Contains(result.Errors, e => e.Contains("tamaño"));
+    }
+
+    [Fact]
+    public void Validate_UnsupportedSize_ReturnsError()
+    {
+        var pizza = new Pizza
+        {
+            Name = "Test",
+            Description = "Test",
+            Price = 10,
+            Size = 25
+        };
+
+        var result = _validator.Validate(pizza);
+
+        Assert.False(result.IsValid);
+        Assert.Contains(result.Errors, e => e.Contains("tamaño"));
+    }
+
+    [Fact]
+    public void Validate_AllowedSizes_ReturnsSuccess()
+    {
+        var allowedSizes = new[] { 20, 30, 40 };
+
+        foreach (var size in allowedSizes)
+        {
+            var pizza = new Pizza
+            {
+                Name = "Test",
+                Description = "Test",
+                Price = 10,
+                Size = size
+            };
+
+            var result = _validator.Validate(pizza);
+
+            Assert.True(result.IsValid);
+            Assert.Empty(result.Errors);
+        }
     }
 }
