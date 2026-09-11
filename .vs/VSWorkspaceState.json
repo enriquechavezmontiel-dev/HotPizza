@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.agents",
+    "\\.agents\\prompts",
+    "\\HotPizza",
+    "\\HotPizza\\Entities",
+    "\\HotPizza\\Repositories",
+    "\\HotPizza\\Services",
+    "\\HotPizza\\Validators"
+  ],
+  "SelectedNode": "\\test-zero-size.txt",
+  "PreviewInSolutionExplorer": false
+}

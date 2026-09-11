@@ -1,0 +1,425 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ai4devs\\HotPizza\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ai4devs\\HotPizza\\test-zero-size.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:test-zero-size.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ai4devs\\HotPizza\\test-negative-price.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:test-negative-price.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ai4devs\\HotPizza\\test-multiple-errors.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:test-multiple-errors.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ai4devs\\HotPizza\\test-input.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:test-input.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ai4devs\\HotPizza\\test-empty-name.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:test-empty-name.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ai4devs\\HotPizza\\HotPizza\\Services\\PizzaService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotPizza\\Services\\PizzaService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ai4devs\\HotPizza\\HotPizza\\Validators\\ValidationResult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotPizza\\Validators\\ValidationResult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ai4devs\\HotPizza\\HotPizza\\Validators\\PizzaValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotPizza\\Validators\\PizzaValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ai4devs\\HotPizza\\.agents\\prompts\\plan-implementacion-catalogo-pizzas.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.agents\\prompts\\plan-implementacion-catalogo-pizzas.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ai4devs\\HotPizza\\HotPizza\\Validators\\IValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotPizza\\Validators\\IValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ai4devs\\HotPizza\\HotPizza\\Repositories\\JsonPizzaRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotPizza\\Repositories\\JsonPizzaRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ai4devs\\HotPizza\\HotPizza\\Entities\\Pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotPizza\\Entities\\Pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\.copilot\\plans\\plan-execute-hotpizza-pizza-catalog-implementation.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownSecurePreview"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ai4devs\\HotPizza\\HotPizza\\Repositories\\IPizzaRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotPizza\\Repositories\\IPizzaRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ai4devs\\HotPizza\\HotPizza\\Services\\OperationResult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotPizza\\Services\\OperationResult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ai4devs\\HotPizza\\HotPizza\\Services\\IPizzaService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotPizza\\Services\\IPizzaService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ai4devs\\HotPizza\\HotPizza\\UI\\ConsoleUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotPizza\\UI\\ConsoleUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ai4devs\\HotPizza\\HotPizza\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotPizza\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ai4devs\\HotPizza\\HotPizza.Tests\\Validators\\PizzaValidatorTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotPizza.Tests\\Validators\\PizzaValidatorTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ai4devs\\HotPizza\\HotPizza.Tests\\Repositories\\JsonPizzaRepositoryTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotPizza.Tests\\Repositories\\JsonPizzaRepositoryTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ai4devs\\HotPizza\\HotPizza.Tests\\Services\\PizzaServiceTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotPizza.Tests\\Services\\PizzaServiceTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ai4devs\\HotPizza\\IMPLEMENTATION_SUMMARY.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IMPLEMENTATION_SUMMARY.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ai4devs\\HotPizza\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "test-input.txt",
+              "DocumentMoniker": "C:\\ai4devs\\HotPizza\\test-input.txt",
+              "RelativeDocumentMoniker": "test-input.txt",
+              "ToolTip": "C:\\ai4devs\\HotPizza\\test-input.txt",
+              "RelativeToolTip": "test-input.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-08-23T00:02:12.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "test-multiple-errors.txt",
+              "DocumentMoniker": "C:\\ai4devs\\HotPizza\\test-multiple-errors.txt",
+              "RelativeDocumentMoniker": "test-multiple-errors.txt",
+              "ToolTip": "C:\\ai4devs\\HotPizza\\test-multiple-errors.txt",
+              "RelativeToolTip": "test-multiple-errors.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-08-23T00:02:11.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test-zero-size.txt",
+              "DocumentMoniker": "C:\\ai4devs\\HotPizza\\test-zero-size.txt",
+              "RelativeDocumentMoniker": "test-zero-size.txt",
+              "ToolTip": "C:\\ai4devs\\HotPizza\\test-zero-size.txt",
+              "RelativeToolTip": "test-zero-size.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-08-23T00:02:11.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "test-negative-price.txt",
+              "DocumentMoniker": "C:\\ai4devs\\HotPizza\\test-negative-price.txt",
+              "RelativeDocumentMoniker": "test-negative-price.txt",
+              "ToolTip": "C:\\ai4devs\\HotPizza\\test-negative-price.txt",
+              "RelativeToolTip": "test-negative-price.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-08-23T00:02:11.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "test-empty-name.txt",
+              "DocumentMoniker": "C:\\ai4devs\\HotPizza\\test-empty-name.txt",
+              "RelativeDocumentMoniker": "test-empty-name.txt",
+              "ToolTip": "C:\\ai4devs\\HotPizza\\test-empty-name.txt",
+              "RelativeToolTip": "test-empty-name.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-08-23T00:02:11.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\ai4devs\\HotPizza\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\ai4devs\\HotPizza\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-08-22T19:17:53.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IMPLEMENTATION_SUMMARY.md",
+              "DocumentMoniker": "C:\\ai4devs\\HotPizza\\IMPLEMENTATION_SUMMARY.md",
+              "RelativeDocumentMoniker": "IMPLEMENTATION_SUMMARY.md",
+              "ToolTip": "C:\\ai4devs\\HotPizza\\IMPLEMENTATION_SUMMARY.md",
+              "RelativeToolTip": "IMPLEMENTATION_SUMMARY.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-08-22T19:15:58.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PizzaServiceTests.cs",
+              "DocumentMoniker": "C:\\ai4devs\\HotPizza\\HotPizza.Tests\\Services\\PizzaServiceTests.cs",
+              "RelativeDocumentMoniker": "HotPizza.Tests\\Services\\PizzaServiceTests.cs",
+              "ToolTip": "C:\\ai4devs\\HotPizza\\HotPizza.Tests\\Services\\PizzaServiceTests.cs",
+              "RelativeToolTip": "HotPizza.Tests\\Services\\PizzaServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T19:10:39.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "JsonPizzaRepositoryTests.cs",
+              "DocumentMoniker": "C:\\ai4devs\\HotPizza\\HotPizza.Tests\\Repositories\\JsonPizzaRepositoryTests.cs",
+              "RelativeDocumentMoniker": "HotPizza.Tests\\Repositories\\JsonPizzaRepositoryTests.cs",
+              "ToolTip": "C:\\ai4devs\\HotPizza\\HotPizza.Tests\\Repositories\\JsonPizzaRepositoryTests.cs",
+              "RelativeToolTip": "HotPizza.Tests\\Repositories\\JsonPizzaRepositoryTests.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAABBwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T19:10:18.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PizzaValidatorTests.cs",
+              "DocumentMoniker": "C:\\ai4devs\\HotPizza\\HotPizza.Tests\\Validators\\PizzaValidatorTests.cs",
+              "RelativeDocumentMoniker": "HotPizza.Tests\\Validators\\PizzaValidatorTests.cs",
+              "ToolTip": "C:\\ai4devs\\HotPizza\\HotPizza.Tests\\Validators\\PizzaValidatorTests.cs",
+              "RelativeToolTip": "HotPizza.Tests\\Validators\\PizzaValidatorTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T19:10:02.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ai4devs\\HotPizza\\HotPizza\\Program.cs",
+              "RelativeDocumentMoniker": "HotPizza\\Program.cs",
+              "ToolTip": "C:\\ai4devs\\HotPizza\\HotPizza\\Program.cs",
+              "RelativeToolTip": "HotPizza\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAIBJwBQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T19:09:43.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ConsoleUI.cs",
+              "DocumentMoniker": "C:\\ai4devs\\HotPizza\\HotPizza\\UI\\ConsoleUI.cs",
+              "RelativeDocumentMoniker": "HotPizza\\UI\\ConsoleUI.cs",
+              "ToolTip": "C:\\ai4devs\\HotPizza\\HotPizza\\UI\\ConsoleUI.cs",
+              "RelativeToolTip": "HotPizza\\UI\\ConsoleUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T19:09:25.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PizzaService.cs",
+              "DocumentMoniker": "C:\\ai4devs\\HotPizza\\HotPizza\\Services\\PizzaService.cs",
+              "RelativeDocumentMoniker": "HotPizza\\Services\\PizzaService.cs",
+              "ToolTip": "C:\\ai4devs\\HotPizza\\HotPizza\\Services\\PizzaService.cs",
+              "RelativeToolTip": "HotPizza\\Services\\PizzaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T19:09:10.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IPizzaService.cs",
+              "DocumentMoniker": "C:\\ai4devs\\HotPizza\\HotPizza\\Services\\IPizzaService.cs",
+              "RelativeDocumentMoniker": "HotPizza\\Services\\IPizzaService.cs",
+              "ToolTip": "C:\\ai4devs\\HotPizza\\HotPizza\\Services\\IPizzaService.cs",
+              "RelativeToolTip": "HotPizza\\Services\\IPizzaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T19:08:54.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "plan-execute-hotpizza-pizza-catalog-implementation.md [Preview]",
+              "DocumentMoniker": "C:\\Users\\HP\\.copilot\\plans\\plan-execute-hotpizza-pizza-catalog-implementation.md",
+              "RelativeDocumentMoniker": "..\\..\\Users\\HP\\.copilot\\plans\\plan-execute-hotpizza-pizza-catalog-implementation.md",
+              "ToolTip": "C:\\Users\\HP\\.copilot\\plans\\plan-execute-hotpizza-pizza-catalog-implementation.md [Preview]",
+              "RelativeToolTip": "..\\..\\Users\\HP\\.copilot\\plans\\plan-execute-hotpizza-pizza-catalog-implementation.md [Preview]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-08-22T19:08:17.758Z",
+              "EditorCaption": " [Preview]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OperationResult.cs",
+              "DocumentMoniker": "C:\\ai4devs\\HotPizza\\HotPizza\\Services\\OperationResult.cs",
+              "RelativeDocumentMoniker": "HotPizza\\Services\\OperationResult.cs",
+              "ToolTip": "C:\\ai4devs\\HotPizza\\HotPizza\\Services\\OperationResult.cs",
+              "RelativeToolTip": "HotPizza\\Services\\OperationResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T19:08:10.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JsonPizzaRepository.cs",
+              "DocumentMoniker": "C:\\ai4devs\\HotPizza\\HotPizza\\Repositories\\JsonPizzaRepository.cs",
+              "RelativeDocumentMoniker": "HotPizza\\Repositories\\JsonPizzaRepository.cs",
+              "ToolTip": "C:\\ai4devs\\HotPizza\\HotPizza\\Repositories\\JsonPizzaRepository.cs",
+              "RelativeToolTip": "HotPizza\\Repositories\\JsonPizzaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T19:07:59.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IPizzaRepository.cs",
+              "DocumentMoniker": "C:\\ai4devs\\HotPizza\\HotPizza\\Repositories\\IPizzaRepository.cs",
+              "RelativeDocumentMoniker": "HotPizza\\Repositories\\IPizzaRepository.cs",
+              "ToolTip": "C:\\ai4devs\\HotPizza\\HotPizza\\Repositories\\IPizzaRepository.cs",
+              "RelativeToolTip": "HotPizza\\Repositories\\IPizzaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T19:07:45.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PizzaValidator.cs",
+              "DocumentMoniker": "C:\\ai4devs\\HotPizza\\HotPizza\\Validators\\PizzaValidator.cs",
+              "RelativeDocumentMoniker": "HotPizza\\Validators\\PizzaValidator.cs",
+              "ToolTip": "C:\\ai4devs\\HotPizza\\HotPizza\\Validators\\PizzaValidator.cs",
+              "RelativeToolTip": "HotPizza\\Validators\\PizzaValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T19:07:33.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ValidationResult.cs",
+              "DocumentMoniker": "C:\\ai4devs\\HotPizza\\HotPizza\\Validators\\ValidationResult.cs",
+              "RelativeDocumentMoniker": "HotPizza\\Validators\\ValidationResult.cs",
+              "ToolTip": "C:\\ai4devs\\HotPizza\\HotPizza\\Validators\\ValidationResult.cs",
+              "RelativeToolTip": "HotPizza\\Validators\\ValidationResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T19:07:20.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IValidator.cs",
+              "DocumentMoniker": "C:\\ai4devs\\HotPizza\\HotPizza\\Validators\\IValidator.cs",
+              "RelativeDocumentMoniker": "HotPizza\\Validators\\IValidator.cs",
+              "ToolTip": "C:\\ai4devs\\HotPizza\\HotPizza\\Validators\\IValidator.cs",
+              "RelativeToolTip": "HotPizza\\Validators\\IValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T19:07:09.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Pizza.cs",
+              "DocumentMoniker": "C:\\ai4devs\\HotPizza\\HotPizza\\Entities\\Pizza.cs",
+              "RelativeDocumentMoniker": "HotPizza\\Entities\\Pizza.cs",
+              "ToolTip": "C:\\ai4devs\\HotPizza\\HotPizza\\Entities\\Pizza.cs",
+              "RelativeToolTip": "HotPizza\\Entities\\Pizza.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T19:06:57.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "plan-implementacion-catalogo-pizzas.md",
+              "DocumentMoniker": "C:\\ai4devs\\HotPizza\\.agents\\prompts\\plan-implementacion-catalogo-pizzas.md",
+              "RelativeDocumentMoniker": ".agents\\prompts\\plan-implementacion-catalogo-pizzas.md",
+              "ToolTip": "C:\\ai4devs\\HotPizza\\.agents\\prompts\\plan-implementacion-catalogo-pizzas.md",
+              "RelativeToolTip": ".agents\\prompts\\plan-implementacion-catalogo-pizzas.md",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-08-22T19:02:00.253Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
